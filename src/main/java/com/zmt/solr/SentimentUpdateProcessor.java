@@ -9,9 +9,9 @@ import java.io.IOException;
 /**
  * Created by hisham on 11/04/2016.
  */
-public class SentimentUpdateRequestProcessor extends UpdateRequestProcessor {
+public class SentimentUpdateProcessor extends UpdateRequestProcessor {
 
-    public SentimentUpdateRequestProcessor(UpdateRequestProcessor next) {
+    public SentimentUpdateProcessor(UpdateRequestProcessor next) {
         super(next);
         NLP.init();
     }
@@ -27,7 +27,7 @@ public class SentimentUpdateRequestProcessor extends UpdateRequestProcessor {
             doc.setField("sentiment", sentiment);
         }
 
-        next.processAdd(cmd);
+        super.processAdd(cmd);
     }
 
 }
