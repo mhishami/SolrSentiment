@@ -1,6 +1,6 @@
 
 # SolrSentiment
-An `UpdateRequestFactory` that uses the Stanfor com.zmt.solr.NLP Library for Sentiment Analysis.
+An `UpdateRequestFactory` that uses the Stanfor NLP Library for Sentiment Analysis.
 
 # Usage
 1. Clone this repo
@@ -10,9 +10,9 @@ An `UpdateRequestFactory` that uses the Stanfor com.zmt.solr.NLP Library for Sen
 ```
 target
 ├── classes
-│   ├── com.zmt.solr.NLP.class
-│   ├── com.zmt.solr.SentimentUpdateProcessor.class
-│   └── com.zmt.solr.SentimentUpdateProcessorFactory.class
+│   ├── NLP.class
+│   ├── SentimentUpdateProcessor.class
+│   └── SentimentUpdateProcessorFactory.class
 ├── dependency
 │   ├── antlr4-runtime-4.5.1-1.jar
 │   ├── asm-5.0.4.jar

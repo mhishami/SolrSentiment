@@ -1,4 +1,4 @@
-package com.zmt.solr;
+package org.apache.solr.update.processor;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;

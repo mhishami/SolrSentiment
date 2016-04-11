@@ -1,8 +1,7 @@
-package com.zmt.solr;
+package org.apache.solr.update.processor;
 
 import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.update.AddUpdateCommand;
-import org.apache.solr.update.processor.UpdateRequestProcessor;
 
 import java.io.IOException;
 
