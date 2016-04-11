@@ -1,3 +1,5 @@
+package com.zmt.solr;
+
 import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.update.AddUpdateCommand;
 import org.apache.solr.update.processor.UpdateRequestProcessor;
